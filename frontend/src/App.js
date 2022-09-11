@@ -23,7 +23,8 @@ function App() {
         addUser([...res.data])
     })
       .catch(err => console.log(err))
-    console.log("Users loaded..")
+    //console.log("Users loaded..")
+      console.log ("User loaded...")
   }, [])
 
   const [userPos, setUserPos] = useState(0)
